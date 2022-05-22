@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  frontendapp:
+    build: .
+    image: masterfront
+    ports:
+      - "80:3000"
